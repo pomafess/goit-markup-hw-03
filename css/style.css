@@ -92,7 +92,22 @@
   align-items: center;
   text-align: center;
 }
+.button:hover,
+.button:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 /*Особенности*/
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 .section-title {
   color: var(--title-text-collor);
   font-weight: 700;
@@ -188,7 +203,7 @@
   letter-spacing: 0.06em;
 }
 .projects .text {
-  color: #757575;
+  color: var(--primery-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
