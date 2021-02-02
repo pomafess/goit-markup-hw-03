@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --primery-text-color: #757575;
   --title-text-collor: #212121;
@@ -23,6 +31,8 @@
 
 .list {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /*шапка*/
 .page-header {
@@ -40,6 +50,18 @@
 }
 .link {
   text-decoration: none;
+}
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.profession {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .logo-color {
   color: var(--logo-text-collor);
@@ -73,6 +95,8 @@
   letter-spacing: 0.06em;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--hero-text-color);
   font-style: normal;
   font-weight: 900;
@@ -91,6 +115,11 @@
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 11px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px solid transparent;
+  min-width: 200px;
 }
 .button:hover,
 .button:focus {
@@ -109,6 +138,8 @@
   overflow: hidden;
 }
 .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--title-text-collor);
   font-weight: 700;
   font-size: 36px;
@@ -207,4 +238,13 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+/* ======Container====== */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
 }
