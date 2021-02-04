@@ -189,9 +189,6 @@ img {
   padding-top: 94px;
   padding-bottom: 47px;
 }
-.feature .list {
-  padding-left: -40;
-}
 .feature .title {
   color: var(--title-text-collor);
   font-weight: 700;
