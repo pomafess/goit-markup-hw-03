@@ -311,7 +311,7 @@ img {
   text-decoration: none;
 }
 .mail-tel .link {
-  display: flex;
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
@@ -391,6 +391,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .projects .text {
   color: var(--primery-text-color);
